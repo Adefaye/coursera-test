@@ -1,3 +1,10 @@
 h1 {
-	color:  green ;
+	color: green;
+}
+.row{
+	margin-bottom: 5px;
+}
+.row > div {
+	background-color: grey;
+	border: 1px solid black;
 }
