@@ -1,3 +1,9 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
 body{
 	font-size: 16px;
 	color: #fff ;
@@ -5,6 +11,7 @@ body{
 	font-family: 'Oxygen', sans-serif;
 	
 }
+
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
@@ -24,9 +31,9 @@ body{
 .navbar-brand h1 { /* Restaurant name*/
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: bold;;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -51,4 +58,117 @@ body{
 }
 #kosher p span {
 	vertical-align: middle;
+}
+.fas {
+	display: block;
+    margin-left: 10px;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #efefef;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 0;
+}
+#phone a{
+	text-align: center;
+	padding-bottom: 0;
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding-right: 30px;
+	font-size: 0.77em;	
+}
+li{
+	margin:0px 10px; 
+}
+button .icon-bar {
+	border:2px solid #61122f;
+}
+ button.icon-bar, .navbrand {
+	clear: both;
+	margin-top: -30px;
+
+
+}
+
+/* large devices only*/
+@media( min-width: 1200px){
+	.jumbotron{
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+		margin-top: 20px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+
+}
+
+/*medium devices only*/
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/restaurant-logo_medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+	.navbrand{
+		margin-right: -30px;
+	}
+
+	.jumbotron{
+		background: url('../images/jumbotron_992.jpg') no-repeat ;
+		height: 558px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+
+}
+
+/*small devices only */
+@media( min-width: 768px) and (max-width: 991px){
+
+
+
+}
+
+/*extra small devices only*/
+@media (max-width: 767px){
+	.navbrand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbrand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbrand p{
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbrand p img{
+		height: 20px;
+	}
+	#kosher{
+		margin-top: -5px;
+	}
+	#nav-list a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
 }

@@ -7,6 +7,7 @@
   <title>David Chu's China Bistro</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/dac0a566f9.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
@@ -14,12 +15,12 @@
 
   <header>
     <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
+      <div class="container">
         <div id="logo-img" class="d-none d-md-block d-lg-block"> 
           <a class="navbar-brand " href="index.html"></a>
         </div>
 
-        <div>
+        <div class="navbrand">
           <a class="navbar-brand" href="index.html">
             <h1>David's Chu's China Bistro</h1>
           </a>
@@ -29,22 +30,26 @@
           </p>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon-bar"></span>
+          <span class="sr-only icon-bar">Toggle navigatoon</span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul id="nav-list" class="navbar-nav">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul id="nav-list" class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="menu-categories.html"><span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-block d-lg-block"> Menu </a>
+              <a class="nav-link" href="menu-categories.html"> <span class="fas fa-utensils"></span><br class="d-none d-md-block d-lg-block"> Menu </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#" > <span class="fas fa-info-circle"></span><br class="d-none d-md-block d-lg-block">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"> <span class="fas fa-certificate"></span><br class="d-none d-md-block d-lg-block" > Awards</a>
+             </li>
+              <li id="phone" class="nav-item d-none d-md-block d-lg-block">
+              <a class="nav-link" href="tel:+2348153754220"> <span>+2348153754220</span></a><div>*We Deliver</div>
+             </li>
+           <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown link
               </a>
@@ -53,13 +58,28 @@
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
 
       </div>
     </nav>
   </header>
+  <div id="call-btn" class="d-xs-block d-lg-none">
+    <a class="btn" href="tel:+2348153754220">
+      <span class="fas fa-phone"></span> 08153754220
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center d-xs-block d-lg-none">*We Deliver</div>
+
+  <div id="main-content" class="container"> 
+    <div class="jumbotron"> 
+      <img src="../images/jumbotron_768.jpg" alt="picture of the restaurant" class="img-fluid d-xs-block d-lg-none">
+
+
+    </div>
+
+  </div>
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
