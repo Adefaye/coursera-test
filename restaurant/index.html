@@ -46,7 +46,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#"> <span class="fas fa-certificate"></span><br class="d-none d-md-block d-lg-block" > Awards</a>
              </li>
-              <li id="phone" class="nav-item d-none d-md-block d-lg-block">
+              <li id="phone" class="nav-item d-none d-lg-block">
               <a class="nav-link" href="tel:+2348153754220"> <span>+2348153754220</span></a><div>*We Deliver</div>
              </li>
            <!-- <li class="nav-item dropdown">
@@ -65,21 +65,79 @@
       </div>
     </nav>
   </header>
-  <div id="call-btn" class="d-xs-block d-lg-none">
+
+  <div id="call-btn" class="d-xs-block d-md-block d-lg-none">
     <a class="btn" href="tel:+2348153754220">
       <span class="fas fa-phone"></span> 08153754220
     </a>
   </div>
-  <div id="xs-deliver" class="text-center d-xs-block d-lg-none">*We Deliver</div>
+  <div id="xs-deliver" class="text-center d-xs-block d-md-block d-lg-none">*We Deliver</div>
 
   <div id="main-content" class="container"> 
     <div class="jumbotron"> 
-      <img src="../images/jumbotron_768.jpg" alt="picture of the restaurant" class="img-fluid d-xs-block d-lg-none">
-
-
+      <img src="../images/jumbotron_768.jpg" alt="picture of the restaurant" class="img-fluid d-xs-block d-md-none d-lg-none">
     </div>
 
-  </div>
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html">
+          <div id="menu-tile">
+            <span>menu</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html">
+          <div id="special-tile">
+            <span>specials</span>
+          </div>
+        </a>  
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/LxmDmCbcA5XkLr8z6" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5566364349547!2d3.3927999153390496!3d6.450919625791132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b17578428c3%3A0x19410ca10533288f!2sEleganza%20House!5e0!3m2!1sen!2sng!4v1600686766039!5m2!1sen!2sng" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span>Map</span>
+          </div>
+        </a> 
+      </div>
+    </div> <!-- end of home tiles-->
+  </div> <!-- end of main content-->
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div  class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday: Closed
+          <hr class="d-sm-block">
+        </section> 
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          15b Joseph Harden street,
+          lagos island,
+          Lagos st
+          <p>*Delivery area within 3-4 miles, with minimum order of $20 plus
+            $3 charge for all deliveries
+          </p>
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant  i've been to! And that's 
+            saying a lot, since i've been to many"
+          </p>
+          <p>"Amazing food! great service! couldn't ask for more! 
+            i will be back again and again"
+          </p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright FAYE</div>
+    </div>
+   </footer>
+
+  
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
