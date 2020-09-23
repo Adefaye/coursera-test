@@ -380,11 +380,11 @@ h3.menu-item-title {
 	.container .jumbotron {
 		margin-top: 30px;
 		padding: 0;
-		background: url('../images/jumbotron_768.jpg') no-repeat;
+		background: url('../images/jumbotron_992.jpg') no-repeat ;
 	}
 
 	 #menu-tile, #special-tile{
-		width: 100%;
+		width: 80%;
 		margin: 0 auto 15px;
 	} 
 	.panel-footer section{
